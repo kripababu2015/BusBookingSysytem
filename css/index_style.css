@@ -1,0 +1,20 @@
+.bcolor{
+	background-color:rgba(172, 0, 230,0.9);
+	font-family: arial;
+
+
+}
+
+.size{
+	height: 70px;
+}
+.banner{
+	background-image: url("../img/bms.jpeg");
+	background-size: cover;
+}
+.clr1{
+	color:#990099;
+}
+.clr2{
+	color:#ff6600;
+}

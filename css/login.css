@@ -1,0 +1,57 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.login{
+	background-color:#990099;
+
+}
+.padding{
+	margin-top:5%;
+	margin-left:30%;  
+
+}
+.white{
+	color:white; 
+
+}
+.font{
+		font-family: arial;
+}
+.p-t{
+	padding-top: 10px;
+}
+
+.b-log
+{
+	padding:5px;
+	padding-right:2%;
+	padding-left:2%
+
+}
+
+.log{
+	text-align: center;
+	width:500px;
+	height:250px;
+	background-color:rgba(0,0,0,.09);
+
+}
+.txt{
+	padding:10px;
+	padding-right:50px; 
+}
+.title{
+	margin-left: 43%;
+	 
+}
+.link1{
+	text-decoration: none;
+	margin-left:18%; 
+	margin-right:10%;
+}
+.link2{
+	text-decoration: none;
+	margin-left:15%;
+	margin-right:10%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Notification View</title>
+	<style>
+		table,th,td{
+			border:1px solid;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Bus Number</th>
+				<th>Bus Name</th>
+				<th>Notification</th>
+				<th>Action</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<?php
+		if($n->num_rows()>0)
+		{
+			foreach($n->result() as $row)
+					{
+		?>
+						<tr>
+							<td><?php echo $row->bno;?></td>
+							<td><?php echo $row->bname;?></td>
+							<td><?php echo $row->notification?></td>
+							
+							</tr>
+			<?php
+				}
+			}
+			?>
+
+			
+		</tbody>
+	</table>
+
+</body>
+</html>
